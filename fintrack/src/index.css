@@ -110,7 +110,7 @@ ul li::before {
   cursor: pointer;
 }
 
-.item svg:focus,
+.item svg:focus, 
 .item svg:hover {
   color: red;
   outline: none;
@@ -130,7 +130,7 @@ ul li::before {
   left: -99999px;
 }
 
-.addForm input[type="text"] {
+.addForm input[type='text'] {
   flex-grow: 1;
   max-width: calc(100% - 50px);
   min-height: 48px;
@@ -152,7 +152,7 @@ button {
   cursor: pointer;
 }
 
-button:focus,
+button:focus, 
 button:hover {
   color: white;
   background-color: limegreen;
@@ -173,7 +173,7 @@ button:hover {
   left: -99999px;
 }
 
-.searchForm input[type="text"] {
+.searchForm input[type='text'] {
   flex-grow: 1;
   max-width: 100%;
   min-height: 48px;
